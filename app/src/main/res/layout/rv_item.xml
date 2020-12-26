@@ -8,11 +8,13 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_margin="10dp"
-        app:cardCornerRadius="30dp">
+        app:cardElevation="5dp"
+        app:cardCornerRadius="20dp">
 
         <ImageView
             android:id="@+id/iv_image"
-            android:layout_width="700dp"
+            android:scaleType="fitXY"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center"
             android:gravity="center"
@@ -27,9 +29,11 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|center"
             android:background="#97000000"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            >
 
             <TextView
+                android:layout_marginTop="10dp"
                 android:id="@+id/tv_destination"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -45,7 +49,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_margin="10dp"
+                android:scaleX="0.5"
+                android:scaleY="0.5"
+                android:numStars="5"
                 android:progressBackgroundTint="@color/white"
 
 

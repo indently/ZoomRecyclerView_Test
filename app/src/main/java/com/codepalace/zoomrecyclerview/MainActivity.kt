@@ -28,9 +28,9 @@ class MainActivity : AppCompatActivity() {
 
         recyclerView = findViewById(R.id.rv_recycler)
 
-        addToList("Nice place", R.drawable.photo_one, 3)
-        addToList("Nice place Two", R.drawable.photo_two, 4)
-        addToList("Nice place Three", R.drawable.photo_three, 2)
+        addToList("Hawaii Beach", R.drawable.photo_one, 3)
+        addToList("Indonesia Surf", R.drawable.photo_two, 4)
+        addToList("California Forest", R.drawable.photo_three, 5)
         setUpRecyclerView()
     }
 
