@@ -27,7 +27,7 @@ class RecyclerAdapter(
         init {
             itemView.setOnClickListener { v: View ->
                 val position: Int = adapterPosition
-                Toast.makeText(itemView.context, "$position", Toast.LENGTH_SHORT).show()
+                Toast.makeText(itemView.context, title[position], Toast.LENGTH_SHORT).show()
             }
         }
     }
